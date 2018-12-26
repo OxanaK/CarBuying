@@ -1,0 +1,361 @@
+﻿body {
+    min-height: 1600px;
+    height: auto;
+    width: auto;
+    min-width: 1019px;
+    text-align: center;
+    background-color: white;
+    font-size: 12pt;
+}
+
+.wrapper {
+    min-height: 1600px;
+    position: sticky;
+    width: 988px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(246, 245, 243);
+    text-align: center;
+}
+
+#p1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 185px;
+    text-indent: -1ch;
+    width: 650px;
+}
+
+.text_up {
+    padding-top: 62px;
+    height: auto;
+    display: grid;
+    grid-template-colomns: 95px 660px 95px;
+    grid-template-row: auto;
+}
+
+.logo {
+    top: 0;
+    padding-top: 28px;
+    position: absolute;
+    padding-left: 36px;
+    padding-right: 36px;
+    right: 75px;
+    background-color: white;
+    z-index: 31;
+}
+
+.logo_shad {
+    position: absolute;
+    right: 75px;
+    z-index: 30;
+    color: white;
+}
+
+.two_cars {
+    padding-left: 120px;
+    top: 4px;
+}
+
+.sq_yellow {
+    width: 57px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: rgb(255, 219,74);
+    border: 1px solid rgb(255, 219,74);
+    z-index: 37;
+    cursor: pointer;
+    box-shadow: 1px 1px rgb(252, 141,75);
+}
+
+.left {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    /*position:relative;
+            top:54%;*/
+    position: relative;
+    top: 48px;
+    bottom: 0;
+    margin: auto 0;
+    margin-left: 76px;
+    z-index: 38;
+}
+
+.text_and_cars {
+    display: block;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.right {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    position: relative;
+    top: 48px;
+    bottom: 0;
+    margin: auto 0;
+    margin-right: 70px;
+    z-index: 38;
+}
+
+.right_point {
+    z-index: 39;
+    position: relative;
+    top: 16px;
+    left: 3px;
+}
+
+.left_point {
+    z-index: 39;
+    position: relative;
+    top: 19px;
+}
+
+.video {
+    position: relative;
+    top: 54px;
+    z-index: 37;
+}
+
+.play_yellow_sq {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: rgb(255, 219,74);
+    border: 1px solid rgb(255, 219,74);
+    z-index: 38;
+    box-shadow: 1px 1px rgb(252, 141,75);
+    position: absolute;
+    top: 122px;
+    left: 428px;
+    cursor: pointer;
+}
+
+    .play_yellow_sq:hover,
+    .sq_yellow:hover {
+        opacity: 0.8;
+    }
+
+        .sq_yellow:hover > .left_point,
+        .sq_yellow:hover > .right_point,
+        .play_yellow_sq:hover > .play_butt {
+            opacity: 0.8;
+        }
+
+.play_butt {
+    position: relative;
+    top: 35px;
+    left: 5px;
+    z-index: 39;
+}
+
+.p2 {
+    position: relative;
+    top: 0px;
+    z-index: 40;
+}
+
+#p2 {
+    font-size: 22pt;
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    z-index: 40;
+    position: relative;
+    top: 6px;
+    left: 6px;
+    opacity: 1;
+}
+
+#p3 {
+    font-size: 36pt;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    position: relative;
+    padding-left: 6px;
+    left: auto;
+    right: auto;
+    top: -12px;
+}
+
+.benefits_grid {
+    display: grid;
+    grid-template-colomns: 214px 214px 214px 214px;
+    grid-template-row: auto;
+    margin-left: 23px;
+}
+
+.text_on_video {
+    height: 51px;
+    width: 100%;
+    background-color: rgb(41, 54, 60);
+    opacity: 0.7;
+    left: 175px;
+    position: relative;
+    top: -393px;
+    width: 640px;
+    height: 49px;
+    z-index: 39;
+}
+
+.catalog {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: block;
+    padding-left: 25px;
+    max-width: 240px;
+}
+
+.search {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: block;
+    padding-left: 23px;
+    max-width: 240px;
+    padding-top: 1px;
+}
+
+.select {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    display: block;
+    padding-left: 23px;
+    max-width: 240px;
+}
+
+.language {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    display: block;
+    padding-left: 22px;
+    max-width: 240px;
+}
+
+.catalog_img {
+    margin-left: -130px;
+}
+
+.catalog_text {
+    margin-left: -4px;
+    padding-bottom: 7px;
+}
+
+.catalog_tatle {
+    padding-top: -1px;
+    margin-left: -5px;
+}
+
+.search_img {
+    margin-left: -115px;
+    margin-top: -3px;
+}
+
+.search_text {
+    margin-left: -6px;
+    padding-top: 2px;
+}
+
+.search_tatle {
+    margin-left: -8px;
+}
+
+.select_img {
+    padding-left: -35px;
+}
+
+.select_text {
+    padding-left: 31px;
+}
+
+.select_tatle {
+    margin-left: 30px;
+    padding-top: 5px;
+}
+
+.language_img {
+    margin-left: -45px;
+    padding-top: 5px;
+}
+
+.language_text {
+    padding-top: 2px;
+    padding-left: 4px;
+}
+
+.language_tatle {
+    padding-top: 5px;
+    padding-right: 25px;
+}
+
+.img {
+    z-index: 36;
+    margin-left: 0;
+    max-height: 81px;
+    position: relative;
+    margin-top: -22px;
+}
+
+.t {
+    font-size: 23pt;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    z-index: 23;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+    margin-top: -30px;
+}
+
+.text_overr {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+    width: 215px;
+}
+
+.text {
+    font-size: 12pt;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: -30px;
+    text-align: left;
+    z-index: 35;
+    line-height: 1.2;
+}
+
+.p4 {
+    font-size: 32pt;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    position: relative;
+    padding-left: 51px;
+    left: auto;
+    right: auto;
+    top: 51px;
+}
+
+.but_Try:hover {
+    /*background-image:linear-gradient(to bottom, red, blue);*/
+    background-image: linear-gradient(to bottom, rgb(255, 232, 106), rgb(255,225,47));
+}
+
+.but_Try {
+    font-size: 27pt;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    position: relative;
+    border-radius: 7px;
+    left: 34%;
+    cursor: pointer;
+    right: auto;
+    top: 115px;
+    background-color: rgb(255, 222, 27);
+    border: 1px solid rgb(255, 222, 27);
+    width: 316px;
+    height: 57px;
+    padding-top: 11px;
+}
